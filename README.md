@@ -12,9 +12,9 @@ This code adds features to the editor specific to our instance (in `index.js` an
 
 * [x] Puter plugin
 * [x] Automatic deployment to [CapRover](https://caprover.com/) (see the captain-definition file and the file `.github/workflows/caprover.yml`)
-* [x] Onboarding: Send an email with [brevo the 1st time we see a user](https://brevo.co/) + use Silex notification system to guide users through the first steps
 * [x] Disable cloud services and hosting providers with env vars
-* [ ] Silex CMS plugin
+* [ ] Onboarding: Send an email with [brevo the 1st time we see a user](https://brevo.co/) + use Silex notification system to guide users through the first steps
+* [ ] Silex CMS plugin + build 11ty
 * [ ] Analytics: add a tag in Silex editor
 
 ## Environment variables
