@@ -3,11 +3,9 @@
 
 //import SilexCms from './js/silex-cms/client.js'
 import onboarding from './js/client-plugins/onboarding.js'
-import websiteInfoPlugin from './plugins/client/website-info.js'
 import puter from './js/silex-puter/client.js'
 
 export default async function (config) {
-    config.addPlugin(websiteInfoPlugin, {})
     config.addPlugin(onboarding, {})
     config.addPlugin(puter, {})
     //config.addPublicationTransformers({
