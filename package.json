@@ -13,8 +13,8 @@
   "author": "lexoyo",
   "license": "AGPL-3.0-or-later",
   "dependencies": {
-    "@silexlabs/silex": "*",
-    "@silexlabs/silex-puter": "*",
+    "@silexlabs/silex": "^3.0.0-alpha.180",
+    "@silexlabs/silex-puter": "^0.0.5",
     "node_modules-path": "^2.0.8"
   },
   "repository": {
