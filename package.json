@@ -1,5 +1,5 @@
 {
-  "name": "editor.silex.me",
+  "name": "puter.silex.me",
   "version": "1.0.158",
   "description": "This repo holds the code for the free public Silex instance hosted by Silex Labs foundation",
   "scripts": {
@@ -13,16 +13,17 @@
   "author": "lexoyo",
   "license": "AGPL-3.0-or-later",
   "dependencies": {
-    "@silexlabs/silex": "^3.0.0-alpha.179",
-    "@silexlabs/silex-cms": "^0.0.157",
-    "@silexlabs/silex-dashboard": "^1.0.73"
+    "@silexlabs/silex": "*",
+    "@silexlabs/silex-puter": "*",
+    "node_modules-path": "^2.0.8"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:silexlabs/editor.silex.me.git"
+    "url": "git@github.com:silexlabs/puter.silex.me.git"
   },
   "keywords": [
     "silex",
+    "puter",
     "website",
     "builder",
     "free",
