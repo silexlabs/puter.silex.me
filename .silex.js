@@ -6,8 +6,6 @@ const { join } = require('path')
 module.exports = async function (config) {
   await config.addPlugin(onboarding)
 
-  initConnectors(config)
-
   config.addPlugin(StaticPlugin, {
     routes: [
       {
@@ -19,9 +17,4 @@ module.exports = async function (config) {
       },
     ],
   })
-}
-
-function initConnectors(config) {
-  config.setStorageConnectors([])
-  config.setHostingConnectors([])
 }
