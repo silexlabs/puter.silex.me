@@ -14,7 +14,7 @@
   "license": "AGPL-3.0-or-later",
   "dependencies": {
     "@silexlabs/silex": "^3.0.0-alpha.180",
-    "@silexlabs/silex-puter": "^0.0.6",
+    "@silexlabs/silex-puter": "^0.0.7",
     "node_modules-path": "^2.0.8"
   },
   "repository": {
