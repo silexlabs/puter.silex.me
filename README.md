@@ -6,6 +6,8 @@ This repo holds the code for the [public Silex instance hosted for free by Silex
 
 This is also a good example on how to customize Silex. And it has a Dockerfile for easy deployment
 
+[🌐 **Try Silex on Puter**](https://puter.silex.me) – Fully integrated and ready for your next website project!
+
 ## Features
 
 This code adds features to the editor specific to our instance (in `index.js` and `index.pug`):
